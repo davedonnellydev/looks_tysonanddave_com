@@ -1,0 +1,12 @@
+.main {
+    background-color: #1e2238;
+}
+
+.gallery img {
+    border-radius: 5px;
+    /* border: 1px #e6bd71 solid; */
+}
+
+.gallery {
+    margin: 10px;
+}
