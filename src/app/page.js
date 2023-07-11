@@ -21,24 +21,30 @@ export default function Home() {
 
 
   return (
-    <div className={styles.main}>
-        <div class={styles.gallery}>
-            <Gallery photos={photos} direction={"column"} onClick={openLightbox}/>
-            <ModalGateway>
-                {viewerIsOpen ? (
-                    <Modal onClose={closeLightbox}>
-                    <Carousel
-                        currentIndex={currentImage}
-                        views={photos.map(x => ({
-                        ...x,
-                        srcset: x.srcSet,
-                        caption: x.title
-                        }))}
-                    />
-                    </Modal>
-                ) : null}
-            </ModalGateway>
+    <>
+        <div className={styles.main}>
+            <div className={styles.header}>
+                <h2>Style</h2>
+                <p>This is a taste of what you can expect...</p>
+            </div>
+            <div className={styles.gallery}>
+                <Gallery photos={photos} direction={"column"} onClick={openLightbox}/>
+                <ModalGateway>
+                    {viewerIsOpen ? (
+                        <Modal onClose={closeLightbox}>
+                        <Carousel
+                            currentIndex={currentImage}
+                            views={photos.map(x => ({
+                            ...x,
+                            srcset: x.srcSet,
+                            caption: x.title
+                            }))}
+                        />
+                        </Modal>
+                    ) : null}
+                </ModalGateway>
+            </div>
         </div>
-    </div>
+    </>
   )
 }
