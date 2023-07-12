@@ -1,49 +1,27 @@
 'use client'
 import styles from './page.module.css'
-import { useState, useCallback } from "react";
-import Gallery from "react-photo-gallery";
-import Carousel, { Modal, ModalGateway } from "react-images";
-import photos from './Photos.js';
+import { useState } from "react";
+import StyleSlider from './StyleSlider.js'
+import Grid from './Grid'
+
 
 export default function Home() {
-    const [currentImage, setCurrentImage] = useState(0);
-    const [viewerIsOpen, setViewerIsOpen] = useState(false);
+    const [mode, setMode] = useState('Slider')
 
-    const openLightbox = useCallback((event, { photo, index }) => {
-        setCurrentImage(index);
-        setViewerIsOpen(true);
-      }, []);
-
-      const closeLightbox = () => {
-        setCurrentImage(0);
-        setViewerIsOpen(false);
-      };
-
+    const switchView = (view) => {
+        setMode(view)
+    }
 
   return (
     <>
         <div className={styles.main}>
             <div className={styles.header}>
-                <h2>Style</h2>
-                <p>This is a taste of what you can expect...</p>
+            <h2>Style</h2>
+            <button onClick={() => switchView('Grid')}>Browse for inspo</button>
+            <button onClick={() => switchView('Slider')}>Scale of Extravaganza</button>
+            <p>Welcome to the jungle</p>
             </div>
-            <div className={styles.gallery}>
-                <Gallery photos={photos} direction={"column"} onClick={openLightbox}/>
-                <ModalGateway>
-                    {viewerIsOpen ? (
-                        <Modal onClose={closeLightbox}>
-                        <Carousel
-                            currentIndex={currentImage}
-                            views={photos.map(x => ({
-                            ...x,
-                            srcset: x.srcSet,
-                            caption: x.title
-                            }))}
-                        />
-                        </Modal>
-                    ) : null}
-                </ModalGateway>
-            </div>
+            {mode == 'Slider' ? <StyleSlider /> : <Grid />}
         </div>
     </>
   )

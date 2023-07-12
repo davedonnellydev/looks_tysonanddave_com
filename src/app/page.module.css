@@ -1,32 +1,24 @@
 @import url("https://use.typekit.net/tue5jzx.css");
 
 .main p {
-    font-family: calling-code, sans-serif;
+    font-family: var(--section-font-family);
     font-weight: 400;
     font-style: normal;
-    color: rgb(247, 245, 232);
+    color: var(--section-color);
 }
 
 .main h2 {
-    font-family: westgate, sans-serif;
+    font-family: var(--heading-font-family);
     font-weight: 700;
     font-style: normal;
     font-size: 7rem;
-    background: linear-gradient(
-        90deg,
-        #cb9b51 0%,
-        #f6e27a 45%,
-        #f6f2c0 50%,
-        #f6e27a 55%,
-        #cb9b51 100%
-        );
-       color:transparent;
-       background-clip:text;
+    background: var(--heading-color);
+    color:transparent;
+    background-clip:text;
 }
 
 .gallery img {
     border-radius: 5px;
-    /* border: 1px #e6bd71 solid; */
 }
 
 .gallery {
@@ -34,9 +26,30 @@
 }
 
 .header {
-    color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 3em 0;
+}
+
+.header button {
+    cursor: pointer;
+    padding: 1em;
+}
+
+.slider {
+    width: 80%;
+    margin: auto;
+}
+
+.sliderImage {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.sliderImage img {
+    width: max-content;
+    align-self: center;
+    border-radius: 15px;
 }
