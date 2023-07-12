@@ -61,10 +61,10 @@ export default function StyleSlider(props) {
         marks={
             {
                 0: { label: 'Too little', style: labelStyleExtreme},
-                20: { label: '20%', style: labelStyleInner},
-                40: { label: '40%', style: labelStyleInner},
-                60: { label: '60%', style: labelStyleInner},
-                80: { label: '✨', style: labelStyleInner},
+                20: { label: '😊', style: labelStyleInner},
+                40: { label: '🤩', style: labelStyleInner},
+                60: { label: '✨', style: labelStyleInner},
+                80: { label: '🌈', style: labelStyleInner},
                 100: { label: 'Too much', style: labelStyleExtreme}
             }
         }
