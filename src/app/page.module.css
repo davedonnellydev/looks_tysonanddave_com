@@ -32,9 +32,22 @@
     margin: 3em 0;
 }
 
-.header button {
-    cursor: pointer;
-    padding: 1em;
+.buttons button {
+    background-color: transparent;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+    padding: 0.25em 0.75em;
+    min-width: 10ch;
+    min-height: 44px;
+    border: #fff 1px solid;
+    margin: 10px;
+}
+
+.buttons button:hover  {
+    background-color: #fff;
+    color: black;
+    /* color: var(--heading-color); */
 }
 
 .slider {
@@ -52,4 +65,8 @@
     width: max-content;
     align-self: center;
     border-radius: 15px;
+}
+
+.gender {
+    cursor: pointer !important;
 }

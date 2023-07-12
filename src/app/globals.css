@@ -28,6 +28,7 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+  cursor: pointer;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -37,20 +38,17 @@ a {
 }
 
 button {
-    font-family: inherit; /* For all browsers */
-    font-size: 100%; /* For all browsers */
-    line-height: 1.15; /* For all browsers */
-    margin: 0; /* Firefox and Safari have margin */
-    overflow: visible; /* Edge hides overflow */
-    text-transform: none; /* Firefox inherits text-transform */
-    -webkit-appearance: button; /* Safari otherwise prevents some styles */
-  }
-
-button::-moz-focus-inner {
-    border-style: none;
+    border: none;
+    background-color: transparent;
+    font-family: inherit;
     padding: 0;
-}
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 
-button:-moz-focusring {
-    outline: 1px dotted ButtonText;
-}
+    @media screen and (-ms-high-contrast: active) {
+      border: 2px solid currentcolor;
+    }
+
+  }
