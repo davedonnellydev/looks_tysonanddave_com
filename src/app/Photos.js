@@ -15,13 +15,18 @@ const photos = [
    height: 10000000000000000,
    },
    {
+   src: '/img/masc1.jpeg',
+   width: 666015625.0,
+   height: 1000000000,
+   },
+   {
    src: '/img/1b5bda63c673ca3a93f9cc685e4df9c1.jpg',
    width: 9063444108761330.0,
    height: 10000000000000000,
    },
    {
-   src: '/img/09a14f90c72d5b34bdbf0b540cf3b691.jpg',
-   width: 6622516556291391.0,
+   src: '/img/femme4.jpeg',
+   width: 6666666666666666.0,
    height: 10000000000000000,
    },
    {
@@ -35,9 +40,19 @@ const photos = [
    height: 10000000000000000,
    },
    {
+   src: '/img/them1.jpg',
+   width: 7597840755735492.0,
+   height: 10000000000000000,
+   },
+   {
    src: '/img/997ebd26da67aeaaa06b92bc8c902180.jpg',
    width: 8455772113943029.0,
    height: 10000000000000000,
+   },
+   {
+   src: '/img/them2.jpg',
+   width: 831858407079646.0,
+   height: 1000000000000000,
    },
    {
    src: '/img/173e6cb623894a3c6045500865ec8258.jpg',
@@ -47,6 +62,21 @@ const photos = [
    {
    src: '/img/1581cf6068375e0ddd8bac2c6a1a92db.jpg',
    width: 6778846153846154.0,
+   height: 10000000000000000,
+   },
+   {
+   src: '/img/them3.jpg',
+   width: 6650943396226415.0,
+   height: 10000000000000000,
+   },
+   {
+   src: '/img/them4.jpg',
+   width: 56187624750499.0,
+   height: 100000000000000,
+   },
+   {
+   src: '/img/femme3.jpeg',
+   width: 6666666666666666.0,
    height: 10000000000000000,
    },
    {
@@ -70,9 +100,24 @@ const photos = [
    height: 100,
    },
    {
+   src: '/img/WB_CL123778047-AuroraBottleGreenOneShoulderCapeSleeveJumpsuit0_400x.jpeg',
+   width: 6666666666666666.0,
+   height: 10000000000000000,
+   },
+   {
+   src: '/img/masc4.jpeg',
+   width: 6666666666666666.0,
+   height: 10000000000000000,
+   },
+   {
    src: '/img/bfaba506815f50aac43eccca2f36a131.jpg',
    width: 6558139534883721.0,
    height: 10000000000000000,
+   },
+   {
+   src: '/img/femme1.jpeg',
+   width: 8.0,
+   height: 10,
    },
    {
    src: '/img/4387b74575801a0bd334f82a22cdcadd.jpg',
@@ -85,9 +130,34 @@ const photos = [
    height: 10000000000000000,
    },
    {
+   src: '/img/femme2.jpg',
+   width: 5930735930735931.0,
+   height: 10000000000000000,
+   },
+   {
    src: '/img/be613a7e065434b1e2f467bbed85cd8f.jpg',
    width: 5227062094531975.0,
    height: 10000000000000000,
+   },
+   {
+   src: '/img/bee407de784a131529ae316ffcbdf73e.jpg',
+   width: 8571428571428571.0,
+   height: 10000000000000000,
+   },
+   {
+   src: '/img/flowerdress.jpeg',
+   width: 6666666666666666.0,
+   height: 10000000000000000,
+   },
+   {
+   src: '/img/masc3.jpeg',
+   width: 6666666666666666.0,
+   height: 10000000000000000,
+   },
+   {
+   src: '/img/masc2.jpeg',
+   width: 5.0,
+   height: 10,
    },
    {
    src: '/img/064760510278e0513c7b9ac39f5f0986.jpg',
@@ -97,11 +167,6 @@ const photos = [
    {
    src: '/img/bfa53e47dc41a097a61971c382667fcb.jpg',
    width: 6505190311418685.0,
-   height: 10000000000000000,
-   },
-   {
-   src: '/img/c56ed60bac2c49c4306ff0cca8d376ea.jpg',
-   width: 5930735930735931.0,
    height: 10000000000000000,
    },
    {

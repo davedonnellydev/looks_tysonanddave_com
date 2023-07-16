@@ -7,7 +7,7 @@ import Grid from './Grid'
 
 export default function Home() {
     const [mode, setMode] = useState('Grid')
-    const [gender, setGender] = useState('them')
+    const [gender, setGender] = useState('masc')
 
     const switchView = (view) => {
         setMode(view)
@@ -20,7 +20,7 @@ export default function Home() {
     const SliderText = () => {
         return (
         <>
-        <p>See below for a sliding scale of Extravaganza</p>
+        <p>Toggle between gender styles below:</p>
         <p className='gender'><a onClick={() => switchGender('masc')} style={gender == 'masc' ? { fontStyle: 'italic' } : {}}>masc</a> | <a onClick={() => switchGender('them')} style={gender == 'them' ? { fontStyle: 'italic' } : {}}>them</a> | <a onClick={() => switchGender('femme')} style={gender == 'femme' ? { fontStyle: 'italic' } : {}}>femme</a></p>
         </>)
     }
@@ -29,7 +29,7 @@ export default function Home() {
     <>
         <div className={styles.main}>
             <div className={styles.header}>
-            <h2>Style</h2>
+            <h2>Gilded Glamour Extravaganza</h2>
             <div className={styles.buttons}>
                 <button onClick={() => switchView('Grid')} style={mode == 'Grid' ? { backgroundColor: 'var(--heading-color)', color: 'white' } : {}}>Browse for inspo</button>
                 <button onClick={() => switchView('Slider')} style={mode == 'Slider' ? { backgroundColor: 'var(--heading-color)', color: 'white' } : {}}>Extravaganza Scale</button>
