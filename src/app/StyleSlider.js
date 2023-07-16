@@ -52,7 +52,6 @@ export default function StyleSlider(props) {
         'font-family': 'var(--section-font-family)'
     }
 
-
     return(
         <div className={styles.slider}>
         <Slider min={0}
@@ -60,12 +59,12 @@ export default function StyleSlider(props) {
         defaultValue={20}
         marks={
             {
-                0: { label: 'Not enough', style: labelStyleExtreme},
+                0: { label: <span>Not<br/>Enough</span>, style: labelStyleExtreme},
                 20: { label: '😊', style: labelStyleInner},
                 40: { label: '🤩', style: labelStyleInner},
                 60: { label: '✨', style: labelStyleInner},
                 80: { label: '🌈', style: labelStyleInner},
-                100: { label: 'Too much', style: labelStyleExtreme}
+                100: { label: <span>Too<br/>Much</span>, style: labelStyleExtreme}
             }
         }
         step={null}

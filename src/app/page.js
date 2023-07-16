@@ -21,7 +21,7 @@ export default function Home() {
         return (
         <>
         <p>Toggle between gender styles below:</p>
-        <p className='gender'><a onClick={() => switchGender('masc')} style={gender == 'masc' ? { fontStyle: 'italic' } : {}}>masc</a> | <a onClick={() => switchGender('them')} style={gender == 'them' ? { fontStyle: 'italic' } : {}}>them</a> | <a onClick={() => switchGender('femme')} style={gender == 'femme' ? { fontStyle: 'italic' } : {}}>femme</a></p>
+        <p className='gender'><a className='genderToggle' onClick={() => switchGender('masc')} style={gender == 'masc' ? { fontStyle: 'italic' } : {}}>masc</a> | <a onClick={() => switchGender('them')} style={gender == 'them' ? { fontStyle: 'italic' } : {}}>them</a> | <a onClick={() => switchGender('femme')} style={gender == 'femme' ? { fontStyle: 'italic' } : {}}>femme</a></p>
         </>)
     }
 
