@@ -43,7 +43,11 @@
     text-align: center;
 }
 
-.buttons button {
+.buttons {
+    margin: 10px 0;
+}
+
+.buttons button, .gender button {
     background-color: transparent;
     color: #fff;
     border-radius: 8px;
@@ -55,14 +59,22 @@
     margin: 10px;
 }
 
-.buttons button:hover  {
+.buttons button:hover, .gender button:hover {
     background-color: #fff;
     color: black;
     /* color: var(--heading-color); */
 }
 
+.sliderDiv {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    width: 70%;
+    margin: 0 auto;
+}
+
 .slider {
     width: 80%;
+    height: 80%;
     margin: auto;
 }
 
@@ -70,21 +82,19 @@
     display: flex;
     flex-direction: column;
     margin: 50px;
+    height: 60vh;
 }
 
 .sliderImage img {
-    max-width: max-content;
-    width: 70vw;
+    max-height: 100%;
+    width: auto;
     align-self: center;
     border-radius: 15px;
+    object-fit: contain;
 }
 
 .gender {
-    cursor: pointer !important;
-}
-
-.genderToggle:hover {
-    background-color: aqua;
+    margin: 10px 0;
 }
 
 @media only screen and (max-width: 600px) {

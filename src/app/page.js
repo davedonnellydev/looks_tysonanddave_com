@@ -21,7 +21,11 @@ export default function Home() {
         return (
         <>
         <p>Toggle between gender styles below:</p>
-        <p className='gender'><a className='genderToggle' onClick={() => switchGender('masc')} style={gender == 'masc' ? { fontStyle: 'italic' } : {}}>masc</a> | <a onClick={() => switchGender('them')} style={gender == 'them' ? { fontStyle: 'italic' } : {}}>them</a> | <a onClick={() => switchGender('femme')} style={gender == 'femme' ? { fontStyle: 'italic' } : {}}>femme</a></p>
+        <div className={styles.gender}>
+            <button onClick={() => switchGender('masc')} style={gender == 'masc' ? { backgroundColor: 'var(--heading-color)', color: 'white' } : {}}>masc</button>
+            <button onClick={() => switchGender('them')} style={gender == 'them' ? { backgroundColor: 'var(--heading-color)', color: 'white' } : {}}>them</button>
+            <button onClick={() => switchGender('femme')} style={gender == 'femme' ? { backgroundColor: 'var(--heading-color)', color: 'white' } : {}}>femme</button>
+            </div>
         </>)
     }
 
@@ -29,7 +33,7 @@ export default function Home() {
     <>
         <div className={styles.main}>
             <div className={styles.header}>
-            <h2>Gilded Glamour Extravaganza</h2>
+            <h2>Strut Your Runway</h2>
             <div className={styles.buttons}>
                 <button onClick={() => switchView('Grid')} style={mode == 'Grid' ? { backgroundColor: 'var(--heading-color)', color: 'white' } : {}}>Browse for inspo</button>
                 <button onClick={() => switchView('Slider')} style={mode == 'Slider' ? { backgroundColor: 'var(--heading-color)', color: 'white' } : {}}>Extravaganza Scale</button>

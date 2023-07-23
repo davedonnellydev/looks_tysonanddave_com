@@ -16,19 +16,21 @@ f = open("./src/app/Photos.js", "w")
 f.write("const photos = [\n")
 f.close()
 
-# Iterate directory
-for path in os.listdir(dir_path):
+list_of_files = sorted( filter( lambda x: os.path.isfile(os.path.join(dir_path, x)),
+                        os.listdir(dir_path) ) )
+for file_name in list_of_files:
+    print(file_name)
     # check if current path is a file
-    if os.path.isfile(os.path.join(dir_path, path)):
-        if path == '.DS_Store':
+    if os.path.isfile(os.path.join(dir_path, file_name)):
+        if file_name == '.DS_Store':
             pass
         else:
-            img = Image.open(os.path.join(dir_path, path))
+            img = Image.open(os.path.join(dir_path, file_name))
             widthRatio = img.width / img.height
             dec = str(widthRatio)[::-1].find('.')
             widthWhole = widthRatio * pow(10,dec)
             heightWhole = 1 * pow(10,dec)
-            src = "/img/"+path
+            src = "/img/"+file_name
             res.append(photo(src,widthWhole,heightWhole))
             f = open("./src/app/Photos.js", "a")
             f.write("   {\n")
