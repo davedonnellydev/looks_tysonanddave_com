@@ -40,7 +40,7 @@ export default function Home() {
             </div>
             {mode == 'Slider' ? SliderText() : (<p>Scroll through to browse our lookbook</p>)}
             </div>
-            {mode == 'Slider' ? <StyleSlider gender={gender}/> : <Grid />}
+            {mode == 'Slider' ? <StyleSlider gender={gender} /> : <Grid />}
         </div>
     </>
   )
