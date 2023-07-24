@@ -69,7 +69,7 @@
     display: grid;
     grid-template-columns: 2fr 3fr;
     width: 70%;
-    margin: 0 auto;
+    margin: 5vh auto;
 }
 
 .slider {
@@ -90,10 +90,11 @@
 
 .sliderImage img {
     max-height: 100%;
-    width: auto;
+    width: 60vw;
     align-self: center;
     border-radius: 15px;
     object-fit: contain;
+    justify-content: center;
 }
 
 .gender {
@@ -114,6 +115,11 @@
     .sliderImage {
         margin: 0 auto;
         align-items: center;
+        height: 70vh;
+    }
+
+    .sliderImage img {
+        width: 60vw;
     }
 
 }
