@@ -22,9 +22,9 @@ export default function Home() {
         <>
         <p>Toggle between gender styles below:</p>
         <div className={styles.gender}>
-            <button onClick={() => switchGender('masc')} style={gender == 'masc' ? { backgroundColor: 'var(--heading-color)', color: 'white' } : {}}>masc</button>
-            <button onClick={() => switchGender('them')} style={gender == 'them' ? { backgroundColor: 'var(--heading-color)', color: 'white' } : {}}>them</button>
-            <button onClick={() => switchGender('femme')} style={gender == 'femme' ? { backgroundColor: 'var(--heading-color)', color: 'white' } : {}}>femme</button>
+            <button onClick={() => switchGender('masc')} style={gender == 'masc' ? { backgroundColor: 'var(--button-colour)', color: 'white' } : {}}>masc</button>
+            <button onClick={() => switchGender('them')} style={gender == 'them' ? { backgroundColor: 'var(--button-colour)', color: 'white' } : {}}>them</button>
+            <button onClick={() => switchGender('femme')} style={gender == 'femme' ? { backgroundColor: 'var(--button-colour)', color: 'white' } : {}}>femme</button>
             </div>
         </>)
     }
@@ -35,8 +35,8 @@ export default function Home() {
             <div className={styles.header}>
             <h2>Steal the Show</h2>
             <div className={styles.buttons}>
-                <button onClick={() => switchView('Grid')} style={mode == 'Grid' ? { backgroundColor: 'var(--heading-color)', color: 'white' } : {}}>Browse for inspo</button>
-                <button onClick={() => switchView('Slider')} style={mode == 'Slider' ? { backgroundColor: 'var(--heading-color)', color: 'white' } : {}}>Extravaganza Scale</button>
+                <button onClick={() => switchView('Grid')} style={mode == 'Grid' ? { backgroundColor: 'var(--button-colour)', color: 'white' } : {}}>Browse for inspo</button>
+                <button onClick={() => switchView('Slider')} style={mode == 'Slider' ? { backgroundColor: 'var(--button-colour)', color: 'white' } : {}}>Extravaganza Scale</button>
             </div>
             {mode == 'Slider' ? SliderText() : (<p>Scroll through to browse our lookbook</p>)}
             </div>
