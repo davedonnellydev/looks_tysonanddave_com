@@ -33,7 +33,7 @@ export default function Home() {
     <>
         <div className={styles.main}>
             <div className={styles.header}>
-            <h2>Strut Your Runway</h2>
+            <h2>Steal the Show</h2>
             <div className={styles.buttons}>
                 <button onClick={() => switchView('Grid')} style={mode == 'Grid' ? { backgroundColor: 'var(--heading-color)', color: 'white' } : {}}>Browse for inspo</button>
                 <button onClick={() => switchView('Slider')} style={mode == 'Slider' ? { backgroundColor: 'var(--heading-color)', color: 'white' } : {}}>Extravaganza Scale</button>
