@@ -30,7 +30,7 @@ export default function StyleSlider(props) {
         20: '/img/1u.jpeg',
         40: '/img/2p.jpeg',
         60: '/img/1c.jpg',
-        80: '/img/1z.jpeg',
+        80: '/assets/outer_scale/femme4.jpeg',
         100: '/assets/outer_scale/femme5.jpeg',
     }
 

@@ -5,17 +5,12 @@ const photos = [
    height: 10000000000000000,
    },
    {
-   src: '/img/1b.jpg',
-   width: 6666666666666666.0,
+   src: '/img/1b.jpeg',
+   width: 7683923705722071.0,
    height: 10000000000000000,
    },
    {
    src: '/img/1c.jpg',
-   width: 6666666666666666.0,
-   height: 10000000000000000,
-   },
-   {
-   src: '/img/1d.jpg',
    width: 6666666666666666.0,
    height: 10000000000000000,
    },
@@ -35,6 +30,11 @@ const photos = [
    height: 10000000000000000,
    },
    {
+   src: '/img/1ff.jpeg',
+   width: 7407407407407407.0,
+   height: 10000000000000000,
+   },
+   {
    src: '/img/1g.jpg',
    width: 6666666666666666.0,
    height: 10000000000000000,
@@ -45,9 +45,9 @@ const photos = [
    height: 10000000000000000,
    },
    {
-   src: '/img/1i.jpg',
-   width: 626204238921002.0,
-   height: 1000000000000000,
+   src: '/img/1ii.jpeg',
+   width: 6666666666666666.0,
+   height: 10000000000000000,
    },
    {
    src: '/img/1j.jpg',
@@ -65,29 +65,14 @@ const photos = [
    height: 10000000000000000,
    },
    {
-   src: '/img/1m.jpeg',
-   width: 6666666666666666.0,
-   height: 10000000000000000,
-   },
-   {
    src: '/img/1n.jpeg',
    width: 6666666666666666.0,
-   height: 10000000000000000,
-   },
-   {
-   src: '/img/1o.jpg',
-   width: 6778846153846154.0,
    height: 10000000000000000,
    },
    {
    src: '/img/1p.jpg',
    width: 6666666666666666.0,
    height: 10000000000000000,
-   },
-   {
-   src: '/img/1q.jpg',
-   width: 75.0,
-   height: 100,
    },
    {
    src: '/img/1r.jpg',
@@ -105,11 +90,6 @@ const photos = [
    height: 100000000000000000,
    },
    {
-   src: '/img/1t.jpg',
-   width: 9063444108761330.0,
-   height: 10000000000000000,
-   },
-   {
    src: '/img/1u.jpeg',
    width: 6666666666666666.0,
    height: 10000000000000000,
@@ -122,6 +102,11 @@ const photos = [
    {
    src: '/img/1v.jpeg',
    width: 6672710788757933.0,
+   height: 10000000000000000,
+   },
+   {
+   src: '/img/1vv.jpeg',
+   width: 6666666666666666.0,
    height: 10000000000000000,
    },
    {
@@ -140,11 +125,6 @@ const photos = [
    height: 100000000000000,
    },
    {
-   src: '/img/1z.jpeg',
-   width: 6666666666666666.0,
-   height: 10000000000000000,
-   },
-   {
    src: '/img/2a.jpeg',
    width: 5.0,
    height: 10,
@@ -155,23 +135,8 @@ const photos = [
    height: 10000000000000000,
    },
    {
-   src: '/img/2c.jpeg',
-   width: 8.0,
-   height: 10,
-   },
-   {
-   src: '/img/2d.jpeg',
-   width: 666015625.0,
-   height: 1000000000,
-   },
-   {
-   src: '/img/2f.jpeg',
-   width: 5.0,
-   height: 10,
-   },
-   {
-   src: '/img/2g.jpeg',
-   width: 6828087167070218.0,
+   src: '/img/2bb.jpeg',
+   width: 6666666666666666.0,
    height: 10000000000000000,
    },
    {
@@ -180,13 +145,8 @@ const photos = [
    height: 10000000000000000,
    },
    {
-   src: '/img/2i.jpeg',
-   width: 5725888324873096.0,
-   height: 10000000000000000,
-   },
-   {
    src: '/img/2j.jpeg',
-   width: 6247755834829444.0,
+   width: 6666666666666666.0,
    height: 10000000000000000,
    },
    {
@@ -218,6 +178,66 @@ const photos = [
    src: '/img/2q.jpeg',
    width: 6666666666666666.0,
    height: 10000000000000000,
+   },
+   {
+   src: '/img/2r.jpeg',
+   width: 8.0,
+   height: 10,
+   },
+   {
+   src: '/img/2s.jpeg',
+   width: 6666666666666666.0,
+   height: 10000000000000000,
+   },
+   {
+   src: '/img/2t.jpeg',
+   width: 5127272727272727.0,
+   height: 10000000000000000,
+   },
+   {
+   src: '/img/2u.jpeg',
+   width: 5714285714285714.0,
+   height: 10000000000000000,
+   },
+   {
+   src: '/img/2v.jpeg',
+   width: 5968253968253968.0,
+   height: 10000000000000000,
+   },
+   {
+   src: '/img/2w.jpeg',
+   width: 6666666666666666.0,
+   height: 10000000000000000,
+   },
+   {
+   src: '/img/2x.jpeg',
+   width: 10.0,
+   height: 10,
+   },
+   {
+   src: '/img/2y.jpeg',
+   width: 6662125340599455.0,
+   height: 10000000000000000,
+   },
+   {
+   src: '/img/2z.jpeg',
+   width: 7407407407407407.0,
+   height: 10000000000000000,
+   },
+   {
+   src: '/img/3a.jpeg',
+   width: 6658795749704841.0,
+   height: 10000000000000000,
+   },
+   {
+   src: '/img/3b.jpeg',
+   width: 5668341708542713.0,
+   height: 10000000000000000,
+   },
+   {
+   src: '/img/3c.jpeg',
+   width: 10.0,
+   height: 10,
    },
 ]
 export default photos
