@@ -30,12 +30,17 @@ const photos = [
    height: 10000000000000000,
    },
    {
-   src: '/img/1ff.jpeg',
+   src: '/img/1ff.png',
+   width: 6817447495961227.0,
+   height: 10000000000000000,
+   },
+   {
+   src: '/img/1g.jpeg',
    width: 7407407407407407.0,
    height: 10000000000000000,
    },
    {
-   src: '/img/1g.jpg',
+   src: '/img/1gg.jpg',
    width: 6666666666666666.0,
    height: 10000000000000000,
    },
@@ -117,6 +122,11 @@ const photos = [
    {
    src: '/img/1x.jpg',
    width: 6650943396226415.0,
+   height: 10000000000000000,
+   },
+   {
+   src: '/img/1xx.png',
+   width: 6257763975155279.0,
    height: 10000000000000000,
    },
    {
@@ -207,6 +217,11 @@ const photos = [
    {
    src: '/img/2w.jpeg',
    width: 6666666666666666.0,
+   height: 10000000000000000,
+   },
+   {
+   src: '/img/2ww.png',
+   width: 6644844517184942.0,
    height: 10000000000000000,
    },
    {
