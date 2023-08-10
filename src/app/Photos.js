@@ -65,6 +65,11 @@ const photos = [
    height: 10000000000000000,
    },
    {
+   src: '/img/1kk.png',
+   width: 10.0,
+   height: 10,
+   },
+   {
    src: '/img/1l.jpg',
    width: 5930735930735931.0,
    height: 10000000000000000,
@@ -73,6 +78,11 @@ const photos = [
    src: '/img/1n.jpeg',
    width: 6666666666666666.0,
    height: 10000000000000000,
+   },
+   {
+   src: '/img/1o.png',
+   width: 10.0,
+   height: 10,
    },
    {
    src: '/img/1p.jpg',
@@ -103,6 +113,11 @@ const photos = [
    src: '/img/1uu.jpeg',
    width: 5745412844036697.0,
    height: 10000000000000000,
+   },
+   {
+   src: '/img/1uuu.png',
+   width: 10.0,
+   height: 10,
    },
    {
    src: '/img/1v.jpeg',
@@ -150,6 +165,11 @@ const photos = [
    height: 10000000000000000,
    },
    {
+   src: '/img/2c.png',
+   width: 10.0,
+   height: 10,
+   },
+   {
    src: '/img/2h.jpeg',
    width: 7509986684420772.0,
    height: 10000000000000000,
@@ -192,6 +212,11 @@ const photos = [
    {
    src: '/img/2r.jpeg',
    width: 8.0,
+   height: 10,
+   },
+   {
+   src: '/img/2rr.png',
+   width: 10.0,
    height: 10,
    },
    {
@@ -251,6 +276,11 @@ const photos = [
    },
    {
    src: '/img/3c.jpeg',
+   width: 10.0,
+   height: 10,
+   },
+   {
+   src: '/img/3d.png',
    width: 10.0,
    height: 10,
    },
